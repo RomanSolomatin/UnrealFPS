@@ -6,6 +6,8 @@
 #include "TP_ThirdPerson/TP_ThirdPersonCharacter.h"
 #include "PatrollingGuard.generated.h"
 
+
+
 /**
  * 
  */
@@ -14,13 +16,6 @@ class UNREALFPS_API APatrollingGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
 
-
-public://TODO make a getter and make this private.
-
-	UPROPERTY(EditInstanceOnly, Category="Patrol Route")
-	TArray<AActor*> PatrolPointsCPP;
-
-	
 	
 	
 	

@@ -2,7 +2,6 @@
 
 #pragma once
 
-#include "PatrollingGuard.h"
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTTaskNode.h"
@@ -11,6 +10,9 @@
 /**
  * 
  */
+
+class UPatrolRoute;
+
 UCLASS()
 class UNREALFPS_API UChooseNextWaypoint : public UBTTaskNode
 {
