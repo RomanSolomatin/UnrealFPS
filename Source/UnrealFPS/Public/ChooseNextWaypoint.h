@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "PatrollingGuard.h"
+
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTTaskNode.h"
 #include "ChooseNextWaypoint.generated.h"
@@ -20,6 +22,8 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category="Blackboard")
 	struct FBlackboardKeySelector IndexKey;
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector WaypointKey;
 	
 		
 };
